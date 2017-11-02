@@ -1,0 +1,27 @@
+body{
+  background: $body-bg-colour;
+}
+.br-0{ border-radius: 0px !important; }
+
+.btn , .form-control , .list-group-item{
+  -webkit-border-radius: $no-border-radius !important;
+  -moz-border-radius: $no-border-radius !important;
+  border-radius: $no-border-radius !important;
+}
+
+.list-group-item{ border-width: 1px 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.125); }
+
+aside#menu.sidebar{
+  background: $side-bar-background;
+  width: 270px;
+  height: $height-100vh;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  float: left;
+  -webkit-box-shadow: $side-bar-shadow;
+  -moz-box-shadow: $side-bar-shadow;
+  box-shadow: $side-bar-shadow;
+}
+.breadcrumb{ padding: 1rem 1.25rem !important; }
+.navbar{ padding: 1rem 0.75rem !important; }
