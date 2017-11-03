@@ -9,7 +9,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
     <ul class="navbar-nav">
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown pull-right">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown link
             </a>

@@ -9725,6 +9725,11 @@ body {
   border-radius: 0px !important;
 }
 
+.pull-right {
+  display: block;
+  float: right !important;
+}
+
 .btn,
 .form-control,
 .list-group-item {
