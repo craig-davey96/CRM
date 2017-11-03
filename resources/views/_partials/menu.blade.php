@@ -12,7 +12,7 @@
     <div class="col-12">
         <form action="">
             <div class="input-group mt-3">
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" placeholder="Search...">
                 <div class="input-group-btn">
                     <button class="btn btn-primary">GO</button>
                 </div>
