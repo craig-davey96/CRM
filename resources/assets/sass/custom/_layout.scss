@@ -1,6 +1,7 @@
 body{
   background: $body-bg-colour;
 }
+*{ font-family: 'Open Sans', sans-serif; font-size: 0.9rem !important; }
 .br-0{ border-radius: 0px !important; }
 
 .pull-right{
@@ -17,7 +18,7 @@ body{
 
 aside#menu.sidebar{
   background: $side-bar-background;
-  width: 270px;
+  width: 220px;
   height: $height-100vh;
   margin: 0px;
   padding: 0px;
@@ -26,6 +27,41 @@ aside#menu.sidebar{
   -webkit-box-shadow: $side-bar-shadow;
   -moz-box-shadow: $side-bar-shadow;
   box-shadow: $side-bar-shadow;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index:1001;
 }
-.breadcrumb{ padding: 1rem 1.25rem !important; }
-.navbar{ padding: 1rem 0.75rem !important; }
+.breadcrumb{ padding: 1rem 1.25rem !important; margin: 0px; width: calc(100% - 220px); float: right; }
+.navbar{ padding: 1rem 0.75rem !important; width: calc(100% - 220px); float: right; }
+
+section.rightcolumn{
+  width: calc(100% - 220px);
+  height: calc(100vh - 111.94px);
+  margin: 0px;
+  padding: 1.25rem;
+  display: block;
+  float: right;
+  overflow-y: auto;
+}
+
+.row{ margin-bottom: 15px; }
+.pagination , .pagination .page-link{
+  -webkit-border-radius: $no-border-radius !important;
+  -moz-border-radius: $no-border-radius !important;
+  border-radius: $no-border-radius !important;
+}
+
+.nav-pills .nav-link{ border-radius: $no-border-radius; background: $dark; color: #FFF; margin: 0 10px 0 0; }
+.nav-pills .nav-link:last-child{ margin: 0px; }
+
+.loader{
+  width: calc(100% - 220px);
+  height: calc(100vh - 111.94px);
+  display: block;
+  position: absolute;
+  top: 111.94px;
+  left: 220px;
+  background: #f2f2f2 url('../../../../public/images/6.svg') 50% 50% no-repeat;
+  z-index: 1000;
+}

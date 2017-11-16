@@ -8,6 +8,10 @@
 ?>
 
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/all.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/kanban.js') }}"></script>
+
+@yield('scripts')
 
 </body>
 </html>

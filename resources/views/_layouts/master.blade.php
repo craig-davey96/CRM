@@ -12,5 +12,10 @@
 @include('_partials.menu')
 
 @include('_partials.topmenu')
+
+<div class="loader">
+
+</div>
+
 @yield('content')
 @include('_partials.footer')

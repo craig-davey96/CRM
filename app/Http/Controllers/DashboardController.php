@@ -15,7 +15,7 @@ class DashboardController extends Controller
     public function index()
     {
         //
-        return View('dashboard.index');
+        return $this->_renderpage('dashboard.index' , 'Dashboard');
 
     }
 

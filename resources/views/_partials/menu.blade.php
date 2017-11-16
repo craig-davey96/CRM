@@ -20,8 +20,27 @@
         </form>
     </div>
 
-    <ul class="list-group">
-        <li class="list-group-item"><a href="">Dashboard</a></li>
+    <ul class="menu_ul">
+        <li class="menu_item"><a href=""><i class="ion-md-grid"></i> Dashboard</a></li>
+        <li class="menu_item"><a href=""><i class="ion-md-people"></i> Customers</a></li>
+        <li class="menu_item">
+            <a href="" class="dropdown"><i class="ion-md-pricetag"></i> Sales</a>
+            <ul class="dropdown">
+                <li><a href="{{ url('sales/proposals') }}"><i class="ion-md-arrow-dropright"></i> Proposals</a></li>
+                <li><a href="{{ url('sales/estimates') }}"><i class="ion-md-arrow-dropright"></i> Estimates</a></li>
+                <li><a href="{{ url('sales/invoices') }}"><i class="ion-md-arrow-dropright"></i> Invoices</a></li>
+                <li><a href="{{ url('sales/items') }}"><i class="ion-md-arrow-dropright"></i> Items</a></li>
+            </ul>
+        </li>
+        <li class="menu_item"><a href=""><i class="ion-md-calendar"></i> Events</a></li>
+        <li class="menu_item"><a href=""><i class="ion-md-chatboxes"></i> Support</a></li>
+        <li class="menu_item"><a href="{{ url('tasks') }}"><i class="ion-md-checkbox"></i> Tasks</a></li>
+        <li class="menu_item">
+            <a href="" class="dropdown"><i class="ion-md-stats"></i> Reports</a>
+            <ul class="dropdown">
+                <li><a href=""><i class="ion-md-arrow-dropright"></i> Sales</a></li>
+            </ul>
+        </li>
     </ul>
 
 </aside>

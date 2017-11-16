@@ -1,0 +1,13 @@
+.table th , .table td{ padding: 0.5rem; vertical-align: middle !important; }
+.table th{ border-top: 0px !important; border-bottom: 0px !important; }
+.dataTables_info{
+  float: left;
+  padding: 0px !important;
+  line-height: 42px;
+}
+.dataTables_wrapper{ padding: 0px !important; }
+.dt-buttons{
+  float: left;
+}
+table , table.dataTable{ border-collapse: collapse !important; }
+table .btn{ padding: 0.5rem 0.65rem !important; }

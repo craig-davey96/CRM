@@ -21,8 +21,22 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
+    "datatables.net-bs4": "^1.10.16",
+    "datatables.net-buttons-bs4": "^1.4.2",
+    "datatables.net-editor-bs4": "^1.6.3",
+    "datatables.net-keytable-bs4": "^2.3.2",
+    "datatables.net-responsive-bs4": "^2.2.0",
+    "datatables.net-select-bs4": "^1.2.3",
+    "datatables.net-select-dt": "^1.2.3",
+    "fullcalendar": "^3.6.2",
+    "ionicons": "^3.0.0",
     "jquery": "^3.2.1",
+    "jquery-validation": "^1.17.0",
+    "jszip": "^3.1.4",
+    "moment": "^2.19.2",
+    "pdfmake": "^0.1.33",
     "popper.js": "^1.12.6",
+    "switchery": "0.0.2",
     "tooltip.js": "^1.1.6"
   }
 }

@@ -1,0 +1,30 @@
+.fc-button{
+  background: $info !important;
+  border-radius: $no-border-radius !important;
+  border-color: $info !important;
+  text-shadow: none !important;
+  color: #FFF !important;
+  line-height: 0em !important;
+}
+.fc-toolbar h2{
+  font-size: 1.5rem !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.fc-day-grid-event{ padding: 0.5rem !important; color: #FFF !important; border-radius: $no-border-radius !important;}
+a.fc-more{
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: 0 !important;
+  padding: 0.2rem;
+  background: $primary;
+  color: #FFF !important;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -34px;
+  left: 0;
+}
+.fc-more-cell{
+  position: relative;
+}
