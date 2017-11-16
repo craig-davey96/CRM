@@ -135,6 +135,12 @@
                             'csvHtml5',
                             'pdfHtml5',
                         ]
+                    },
+                    {
+                        text: 'Reload',
+                        action: function ( e, dt, node, config ) {
+                            dt.ajax.reload();
+                        }
                     }
                 ],
                 columns: [

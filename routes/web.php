@@ -31,6 +31,10 @@ Route::post('sales/items/post', 'SalesController@createItem');
  */
 
 Route::get('tasks', 'TasksController@index');
+Route::get('tasks/getdata', 'TasksController@itemsDT');
+
+
 Route::post('tasks/updatetype', 'TasksController@updateTaskType');
+Route::post('tasks/create', 'TasksController@create');
 
 

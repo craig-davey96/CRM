@@ -9818,6 +9818,11 @@ section.rightcolumn {
   z-index: 1000;
 }
 
+.badge {
+  border-radius: 0px !important;
+  padding: 0.5rem 0.75rem;
+}
+
 .card {
   border-radius: 0px;
 }
@@ -9983,6 +9988,25 @@ a.fc-more {
 
 .fc-more-cell {
   position: relative;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  border-radius: 0px !important;
+  margin: 2.5px !important;
+}
+
+.select2-container {
+  width: 100% !important;
+  border-radius: 0px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  border-radius: 0px !important;
+  padding: 5px !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+  border-radius: 0px !important;
 }
 
 /*!

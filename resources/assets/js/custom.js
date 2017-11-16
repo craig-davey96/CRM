@@ -96,4 +96,6 @@ $(function() {
         $('[href="' + lastTab + '"]').tab('show');
     }
 
+    $("select").select2({ width: 'resolve' });
+
 });

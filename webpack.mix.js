@@ -29,6 +29,7 @@ mix.scripts([
     'node_modules/pdfmake/build/pdfmake.min.js',
     'node_modules/pdfmake/build/vfs_fonts.js',
     'node_modules/fullcalendar/dist/fullcalendar.min.js',
+    'node_modules/select2/dist/js/select2.full.min.js',
     'resources/assets/js/custom.js',
 ], 'public/js/all.js');
 
@@ -40,4 +41,5 @@ mix.styles([
     'node_modules/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css',
     'node_modules/datatables.net-select-bs4/css/select.bootstrap4.min.css',
     'node_modules/fullcalendar/dist/fullcalendar.min.css',
+    'node_modules/select2/dist/css/select2.min.css',
 ], 'public/css/all.css');

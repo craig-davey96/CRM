@@ -65,3 +65,9 @@ section.rightcolumn{
   background: #f2f2f2 url('../../../../public/images/6.svg') 50% 50% no-repeat;
   z-index: 1000;
 }
+.badge{
+  -webkit-border-radius: $no-border-radius !important;
+  -moz-border-radius: $no-border-radius !important;
+  border-radius: $no-border-radius !important;
+  padding: 0.5rem 0.75rem;
+}

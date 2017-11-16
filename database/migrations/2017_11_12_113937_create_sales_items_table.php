@@ -15,12 +15,12 @@ class CreateSalesItemsTable extends Migration
     {
         Schema::create('sales_items', function (Blueprint $table) {
             $table->increments('sales_item_id');
-            $table->string('sales_item_name');
+            $table->string('sales_item_name')->nullable();
             $table->decimal('sales_item_price' , 10, 2);
             $table->enum('sales_active' , ['Y','N']);
-            $table->text('sales_item_description');
-            $table->text('sales_item_tags');
-            $table->integer('sales_item_added_by')->unsigned();
+            $table->text('sales_item_description')->nullable();
+            $table->text('sales_item_tags')->nullable();
+            $table->integer('sales_item_added_by')->unsigned()->nullable();
             $table->timestamps();
             $table->foreign('sales_item_added_by')->references('id')->on('users')->onDelete('cascade');
         });
